@@ -35,3 +35,26 @@ $ git remote add origin https://github.com/stefaleon/Git---Pushing-To-New-Branch
 ```
 $ git push -u origin master
 ```
+
+
+
+
+## New Branch
+
+```
+$ git checkout -b newbranch
+Switched to a new branch 'newbranch'
+M       README.md
+```
+
+```
+$ git add .
+```
+
+```
+$ git commit -m 'new branch'
+```
+
+```
+$ git push -u origin newbranch
+```
