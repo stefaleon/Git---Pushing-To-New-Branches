@@ -58,3 +58,25 @@ $ git commit -m 'new branch'
 ```
 $ git push -u origin newbranch
 ```
+
+
+
+
+## Another Branch
+
+```
+$ git checkout -b anotherbranch
+Switched to a new branch 'anotherbranch'
+```
+
+```
+$ git add .
+```
+
+```
+$ git commit -m 'another branch'
+```
+
+```
+$ git push -u origin anotherbranch
+```
